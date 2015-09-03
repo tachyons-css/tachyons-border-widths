@@ -1,18 +1,22 @@
-# TACHYONS-BORDER-WIDTHS
+# <%= module.name %>
+<%= module.version %>
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+<%= module.description %>
 
 ## Install
 ```
-npm install --save-dev tachyons-border-widths
+npm install --save-dev <%= module.name %>
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/<%= module.name %>
+```
 
 ## The Code
 ```
-
+<%= srcCSS %>
 ```
 
 ## Author
@@ -22,6 +26,8 @@ or download the css on github and include in your project.
 ## License
 
 The MIT License (MIT)
+
+Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
