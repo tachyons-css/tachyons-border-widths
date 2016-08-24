@@ -4,7 +4,7 @@ Border width CSS module for Tachyons
 
 #### Stats
 
-425 | 40 | 40
+424 | 40 | 40
 ---|---|---
 bytes | selectors | declarations
 
@@ -105,7 +105,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .br-0 { border-right-width: 0; }
 .bb-0 { border-bottom-width: 0; }
 .bl-0 { border-left-width: 0; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .bw0-ns { border-width: 0; }
  .bw1-ns { border-width: .125rem; }
  .bw2-ns { border-width: .25rem; }
@@ -117,7 +117,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .bb-0-ns { border-bottom-width: 0; }
  .bl-0-ns { border-left-width: 0; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .bw0-m { border-width: 0; }
  .bw1-m { border-width: .125rem; }
  .bw2-m { border-width: .25rem; }
@@ -129,7 +129,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .bb-0-m { border-bottom-width: 0; }
  .bl-0-m { border-left-width: 0; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .bw0-l { border-width: 0; }
  .bw1-l { border-width: .125rem; }
  .bw2-l { border-width: .25rem; }
