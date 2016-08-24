@@ -1,4 +1,4 @@
-# tachyons-border-widths 2.1.3
+# tachyons-border-widths 3.0.0
 
 Border width CSS module for Tachyons
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-border-widths@2.1.3/css/tachyons-border-widths.min.css" />
+<link rel="stylesheet" href="http://npmcdn.com/tachyons-border-widths@3.0.0/css/tachyons-border-widths.min.css" />
 ```
 
 ##### Locally
